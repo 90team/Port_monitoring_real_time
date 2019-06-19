@@ -113,14 +113,14 @@ else:
     print('邮箱资源用尽,时间是：' + nowtime)
     print('邮箱资源用尽,时间是：' + nowtime,file=open('Warning.txt','a+'))
 #判断功能正常
-s = judge('hacker9090@126.com','jnfNKJFNAK1561','2698392815@qq.com','jiu0-sec@qq.com','jktcdnwwmxccgbfh','2698392815@qq.com')
+s = judge('hacker9090@126.com','*','2698392815@qq.com','jiu0-sec@qq.com','*','2698392815@qq.com')
 s.fderror(['10_10_10_10_80',])
 
 #创建目录功能逻辑正常
-s = judge('hacker9090@126.com','jnfNKJFNAK1561','2698392815@qq.com','jiu0-sec@qq.com','jktcdnwwmxccgbfh','2698392815@qq.com')
+s = judge('hacker9090@126.com','*','2698392815@qq.com','jiu0-sec@qq.com','*','2698392815@qq.com')
 s.mkdir()
 
-s = judge('hacker9090@126.com','jnfNKJFNAK1561','2698392815@qq.com','jiu0-sec@qq.com','jktcdnwwmxccgbfh','2698392815@qq.com')
+s = judge('hacker9090@126.com','*','2698392815@qq.com','jiu0-sec@qq.com','*','2698392815@qq.com')
 s.fderror(['10_10_10_10_80'])
 a = s.fderror(['10_10_10_10_80'])
 print(a)
