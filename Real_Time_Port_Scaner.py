@@ -17,11 +17,11 @@ def run(ip,port):
     print('采用126邮箱和QQ邮箱代理服务器发送邮件！')
     #126邮箱设置
     sender = 'hacker9090@126.com'
-    sender_password = 'jnfNKJFNAK1561'
+    sender_password = '*'
     user = '2698392815@qq.com'
     #Q邮箱设置
     q_serder = 'jiu0-sec@qq.com'
-    q_sender_password = 'jktcdnwwmxccgbfh'
+    q_sender_password = '*'
     q_user = '2698392815@qq.com'
     #扫描类型
     print(' 1: SYN  \n   2: Telnet')
